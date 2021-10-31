@@ -23,7 +23,7 @@ function Header() {
 
   return (
     <Container>
-      <a>
+      <a href="#">
         <Logo src="./images/logo.svg" />
       </a>
       <Menu>
@@ -55,22 +55,22 @@ function Header() {
               );
             })}
           <BurgerNavLi>
-            <a>{"Existing Inventory"}</a>
+            <a href="#">{"Existing Inventory"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a>{"Used Inventory"}</a>
+            <a href="#">{"Used Inventory"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a>{"Trade-In"}</a>
+            <a href="#">{"Trade-In"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a>{"CyberTruck"}</a>
+            <a href="#">{"CyberTruck"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a>{"Roadster"}</a>
+            <a href="#">{"Roadster"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a>{"Semi"}</a>
+            <a href="#">{"Semi"}</a>
           </BurgerNavLi>
         </BurgerNavUl>
       </BurgerNav>
