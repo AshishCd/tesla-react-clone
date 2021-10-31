@@ -23,22 +23,22 @@ function Header() {
 
   return (
     <Container>
-      <a href="#">
+      <a href="/#">
         <Logo src="./images/logo.svg" />
       </a>
       <Menu>
         {cars &&
           cars.map((car) => {
             return (
-              <a href="#" key={car}>
+              <a href="/#" key={car}>
                 {car}
               </a>
             );
           })}
       </Menu>
       <RightMenu>
-        <a href="#">Shop</a>
-        <a href="#">Tesla Account</a>
+        <a href="/#">Shop</a>
+        <a href="/#">Tesla Account</a>
         <CustomMenu onClick={() => handleMenuClick()} />
       </RightMenu>
       <BurgerNav show={burgerStatus}>
@@ -50,27 +50,27 @@ function Header() {
             cars.map((car) => {
               return (
                 <BurgerNavLi key={car}>
-                  <a href="#">{car}</a>
+                  <a href="/#">{car}</a>
                 </BurgerNavLi>
               );
             })}
           <BurgerNavLi>
-            <a href="#">{"Existing Inventory"}</a>
+            <a href="/#">{"Existing Inventory"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a href="#">{"Used Inventory"}</a>
+            <a href="/#">{"Used Inventory"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a href="#">{"Trade-In"}</a>
+            <a href="/#">{"Trade-In"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a href="#">{"CyberTruck"}</a>
+            <a href="/#">{"CyberTruck"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a href="#">{"Roadster"}</a>
+            <a href="/#">{"Roadster"}</a>
           </BurgerNavLi>
           <BurgerNavLi>
-            <a href="#">{"Semi"}</a>
+            <a href="/#">{"Semi"}</a>
           </BurgerNavLi>
         </BurgerNavUl>
       </BurgerNav>
